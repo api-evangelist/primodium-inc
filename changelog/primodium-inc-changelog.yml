@@ -1,0 +1,38 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/primodiumxyz
+scheme: semver
+note: >-
+  Primodium ships its developer libraries as versioned GitHub Releases (and npm
+  publishes) per repository; there is no single consolidated changelog page. The
+  recent release windows for the two most actively released libraries are captured
+  below.
+components:
+- name: "@primodiumxyz/reactive-tables"
+  repository: https://github.com/primodiumxyz/reactive-tables/releases
+  current_version: 3.6.2
+  entries:
+  - version: v3.6.2
+    date: '2025-02-03'
+  - version: v3.6.1
+    date: '2024-09-13'
+  - version: v3.6.0
+    date: '2024-08-22'
+  - version: v3.5.5
+    date: '2024-08-19'
+  - version: v3.5.4
+    date: '2024-07-31'
+- name: dex-indexer-stack (@primodiumxyz/dex-graphql / dex-indexer)
+  repository: https://github.com/primodiumxyz/dex-indexer-stack/releases
+  current_version: gql-v1.1.0
+  entries:
+  - version: gql-v1.1.0
+    date: '2025-02-04'
+  - version: gql-v1.0.5
+    date: '2025-01-31'
+  - version: gql-v1.0.4
+    date: '2025-01-31'
+  - version: gql-v1.0.3
+    date: '2025-01-31'
+  - version: v1.2.0
+    date: '2025-01-30'

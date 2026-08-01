@@ -1,7 +1,28 @@
 aid: primodium-inc
 name: Primodium Inc.
-description: Primodium Inc. is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Primodium Inc. (primodiumxyz) is a developer-focused studio building fully
+  on-chain applications and games on Ethereum and Solana. It ships two on-chain
+  games — Primodium, a space-based factory-building game, and Primodium: Empires,
+  a turn-based prediction-market game — both built with MUD and Phaser, alongside
+  a suite of open-source developer libraries and infrastructure: Reactive Tables
+  (a strictly-typed reactive table library for MUD apps), a Solana DEX Indexer
+  Stack exposing a GraphQL API over Hasura/Timescale, a tRPC transaction-sponsoring
+  DEX server, an off-chain MUD indexer, and gasless-transaction relayers. All
+  tooling is published open-source under the MIT license via the primodiumxyz
+  GitHub organization and the @primodiumxyz npm scope.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/primodiumxyz
 url: https://raw.githubusercontent.com/api-evangelist/primodium-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Blockchain
+- Gaming
+- Web3
+- Solana
+- Ethereum
+- GraphQL
+- Developer Tools
+- Indexer
+- Onchain
 apis: []
+common:
+- type: Website
+  url: https://developer.primodium.com/
+- type: DeveloperPortal
+  url: https://developer.primodium.com/
+- type: Documentation
+  url: https://developer.primodium.com/
+- type: GettingStarted
+  url: https://developer.primodium.com/quickstart
+- type: GitHubOrganization
+  url: https://github.com/primodiumxyz
+- type: Packages
+  url: packages/primodium-inc-packages.yml
+- type: SDKs
+  url: packages/primodium-inc-packages.yml
+- type: ChangeLog
+  url: changelog/primodium-inc-changelog.yml
+- type: LLMsTxt
+  url: llms/primodium-inc-llms.txt
+- type: DomainSecurity
+  url: security/primodium-inc-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

@@ -1,0 +1,55 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/org/primodiumxyz
+packages:
+- language: typescript
+  registry: npm
+  name: "@primodiumxyz/reactive-tables"
+  version: 3.6.2
+  url: https://www.npmjs.com/package/@primodiumxyz/reactive-tables
+  repository: https://github.com/primodiumxyz/reactive-tables
+  install: pnpm add @primodiumxyz/reactive-tables
+  description: >-
+    Strictly-typed library for generating and managing reactive tables in a MUD
+    application, available for node and browser environments (a fork of Lattice's
+    RECS).
+  license: MIT
+  official: true
+- language: typescript
+  registry: npm
+  name: "@primodiumxyz/dex-indexer"
+  version: 1.0.2
+  url: https://www.npmjs.com/package/@primodiumxyz/dex-indexer
+  repository: https://github.com/primodiumxyz/dex-indexer-stack
+  install: pnpm add @primodiumxyz/dex-indexer
+  description: TypeScript indexer for DEX trades on Solana using Yellowstone gRPC.
+  license: MIT
+  official: true
+- language: typescript
+  registry: npm
+  name: "@primodiumxyz/dex-graphql"
+  version: 1.1.0
+  url: https://www.npmjs.com/package/@primodiumxyz/dex-graphql
+  repository: https://github.com/primodiumxyz/dex-indexer-stack
+  install: pnpm add @primodiumxyz/dex-graphql
+  description: >-
+    GraphQL client for TypeScript with Hasura & Timescale support, for indexing
+    Solana DEX trades and tokens.
+  license: MIT
+  official: true
+- language: typescript
+  registry: npm
+  name: "@primodiumxyz/dex-server"
+  version: 1.0.3
+  url: https://www.npmjs.com/package/@primodiumxyz/dex-server
+  repository: https://github.com/primodiumxyz/dex-server
+  install: pnpm add @primodiumxyz/dex-server
+  description: >-
+    TypeScript-based tRPC server providing protected API endpoints for building
+    and sponsoring user transactions on Solana.
+  license: MIT
+  official: true
+notes: >-
+  The "gasless" server library (github.com/primodiumxyz/gasless) is published as
+  open source on GitHub but is not distributed on the npm registry, so it is not
+  listed as a package here.
