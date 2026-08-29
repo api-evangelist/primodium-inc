@@ -11,6 +11,17 @@ description: >-
   DEX server, an off-chain MUD indexer, and gasless-transaction relayers. All
   tooling is published open-source under the MIT license via the primodiumxyz
   GitHub organization and the @primodiumxyz npm scope.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
