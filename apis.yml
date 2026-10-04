@@ -1,5 +1,5 @@
 aid: primodium-inc
-name: Primodium Inc.
+name: Primodium
 description: >-
   Primodium Inc. (primodiumxyz) is a developer-focused studio building fully
   on-chain applications and games on Ethereum and Solana. It ships two on-chain
@@ -87,3 +87,4 @@ x-enrichment:
   status: enriched
   artifacts_added: 4
   pass: local-v1
+x-legal-name: Primodium Inc.
